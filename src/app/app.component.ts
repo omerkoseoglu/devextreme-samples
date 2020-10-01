@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sample1';
+
+  doneClick($event: any): void {
+    console.log('onClick', $event);
+  }
 }
